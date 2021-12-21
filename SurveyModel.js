@@ -6,14 +6,15 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const surveySchema = new Schema({
-  ClassNumber: Number,
-  Identifier: String,
-  ClassCount: Number,
+  ClassNumber: String,
+  ClassCount: [Number],
   Instructor: String,
-  Thumbnail: String, //url
-  Note: String, //optional
+  Survey_URL: String, //url
+//   Note: String, optional
+  Created_On: Date,
 });
 
 const Survey = mongoose.model("Survey", surveySchema);
 
 module.exports = Survey;
+
