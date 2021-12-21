@@ -10,16 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/Meltingpot-Data/techperspective-back.git"
   },
-  "author": "",
+  "author": "Michael Metcalf, Eric Savage, Emily Landers, Ryan Lee, and Joey Hernandez",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Meltingpot-Data/techperspective-back/issues"
   },
   "homepage": "https://github.com/Meltingpot-Data/techperspective-back#readme",
   "dependencies": {
+    "@auth0/auth0-react": "^1.8.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.5",
+    "mongo": "^0.1.0",
     "mongoose": "^6.1.2"
   }
 }
