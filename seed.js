@@ -3,7 +3,7 @@
 require('dotenv').config();
 
 const mongoose = require('mongoose');
-const Survey = require('./SurveyModel.js');
+const Survey = require('./modules/SurveyModel.js');
 
 async function seed() {
     mongoose.connect(process.env.MONGO_DB);
