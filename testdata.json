@@ -1,0 +1,2253 @@
+{
+    "responseCode": 200,
+    "message": "success",
+    "content": [
+      {
+        "id": "5154862476423211897",
+        "form_id": "213494408669063",
+        "ip": "73.11.249.246",
+        "created_at": "2021-12-16 12:50:47",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154862244324885899",
+        "form_id": "213494408669063",
+        "ip": "73.97.221.234",
+        "created_at": "2021-12-16 12:50:24",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154862090221115619",
+        "form_id": "213494408669063",
+        "ip": "71.212.152.220",
+        "created_at": "2021-12-16 12:50:09",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154862005028130677",
+        "form_id": "213494408669063",
+        "ip": "172.58.46.205",
+        "created_at": "2021-12-16 12:50:00",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154861954323985597",
+        "form_id": "213494408669063",
+        "ip": "104.156.109.234",
+        "created_at": "2021-12-16 12:49:55",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          }
+        }
+      },
+      {
+        "id": "5154861944914137070",
+        "form_id": "213494408669063",
+        "ip": "73.221.119.194",
+        "created_at": "2021-12-16 12:49:54",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154861865125812257",
+        "form_id": "213494408669063",
+        "ip": "73.115.213.215",
+        "created_at": "2021-12-16 12:49:46",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154861857395519171",
+        "form_id": "213494408669063",
+        "ip": "75.172.9.37",
+        "created_at": "2021-12-16 12:49:45",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154861852024775201",
+        "form_id": "213494408669063",
+        "ip": "73.169.192.202",
+        "created_at": "2021-12-16 12:49:45",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154861823413361156",
+        "form_id": "213494408669063",
+        "ip": "97.113.80.143",
+        "created_at": "2021-12-16 12:49:42",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          }
+        }
+      },
+      {
+        "id": "5154861735415502492",
+        "form_id": "213494408669063",
+        "ip": "67.166.161.145",
+        "created_at": "2021-12-16 12:49:33",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          }
+        }
+      },
+      {
+        "id": "5154861528971514841",
+        "form_id": "213494408669063",
+        "ip": "136.27.9.8",
+        "created_at": "2021-12-16 12:49:12",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          }
+        }
+      },
+      {
+        "id": "5154861448574305595",
+        "form_id": "213494408669063",
+        "ip": "71.80.197.58",
+        "created_at": "2021-12-16 12:49:04",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          }
+        }
+      },
+      {
+        "id": "5154861386221715807",
+        "form_id": "213494408669063",
+        "ip": "68.107.27.226",
+        "created_at": "2021-12-16 12:48:58",
+        "status": "ACTIVE",
+        "new": "1",
+        "flag": "0",
+        "notes": "",
+        "updated_at": null,
+        "answers": {
+          "1": {
+            "name": "yourParents",
+            "order": "1",
+            "text": "Your parents both completed a college degree",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "2": {
+            "name": "youCompleted",
+            "order": "2",
+            "text": "You completed high school",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "3": {
+            "name": "youCompleted3",
+            "order": "3",
+            "text": "You completed any college degree",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "5": {
+            "name": "youHad",
+            "order": "4",
+            "text": "You had a computer in your home during elementary school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "6": {
+            "name": "computerScience",
+            "order": "5",
+            "text": "Computer Science classes were offered at your high school",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "7": {
+            "name": "youHad7",
+            "order": "6",
+            "text": "You had never had to fear your cell phone being shut off",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "8": {
+            "name": "youHad8",
+            "order": "7",
+            "text": "You had a hand-held gaming system as a child",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "9": {
+            "name": "youHave",
+            "order": "8",
+            "text": "You have never felt the need to hide your religion in a professional setting",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "10": {
+            "name": "youHave10",
+            "order": "9",
+            "text": "You have a parent, guardian, family friend, or mentor who works in tech",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "11": {
+            "name": "yourFavorite",
+            "order": "10",
+            "text": "Your favorite movie includes cool technology",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "12": {
+            "name": "youHave12",
+            "order": "11",
+            "text": "You have at least once had someone pay for a private tutor for you",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "13": {
+            "name": "youHave13",
+            "order": "12",
+            "text": "You have at least once flown on a plane",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "14": {
+            "name": "youApplied",
+            "order": "13",
+            "text": "You applied for colleges online",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "15": {
+            "name": "youveNever",
+            "order": "14",
+            "text": "You’ve never heard a stereotype tell you that you are bad at STEM thinking",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "16": {
+            "name": "youveNever16",
+            "order": "15",
+            "text": "You’ve never been the only representative of your race or gender in an academic or professional group setting",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "17": {
+            "name": "youveNever17",
+            "order": "16",
+            "text": "You’ve never had a boss of a different ethnicity",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "18": {
+            "name": "yourRace",
+            "order": "17",
+            "text": "Your race has never been brought up in a job interview",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "19": {
+            "name": "youveNever19",
+            "order": "18",
+            "text": "You’ve never been made fun of in work or school for the color of your skin",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          },
+          "20": {
+            "name": "youWere",
+            "order": "19",
+            "text": "You were encouraged to disassemble the family appliances or electronics",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "21": {
+            "name": "youHavent",
+            "order": "20",
+            "text": "You haven’t ever been worried about unsolicited sexual advances in a job interview",
+            "type": "control_yesno",
+            "answer": "TRUE"
+          },
+          "22": {
+            "name": "youHavent22",
+            "order": "21",
+            "text": "You haven’t ever felt like an outsider in tech because of your beliefs",
+            "type": "control_yesno",
+            "answer": "FALSE"
+          }
+        }
+      }
+    ],
+    "duration": "53.35ms",
+    "resultSet": {
+      "offset": 0,
+      "limit": 20,
+      "count": 14
+    },
+    "limit-left": 962
+  }
