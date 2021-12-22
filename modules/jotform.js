@@ -1,62 +1,39 @@
 'use strict';
-//pulled from https://github.com/jotform/jotform-api-nodejs/blob/master/jotform-api.js
-//need to see how to integrate into our code
-var defaults = {
-    url: "https://api.jotform.com",
-    apiKey: undefined,
-    version: "latest",
-    debug: false,
-    timeout: 10000 // 10 seconds
-}
 
-var _url = defaults.url
-    , _apiKey = defaults.apiKey
-    , _version = defaults.version
-    , _debug = defaults.debug
-    , request = require('request')
-    , Q = require('q');
+const axios = require('axios');
 
-function sendRequest(deferred, url, verb, postData) {
-    if (_debug) {
-        console.log(verb.toUpperCase() + " to URL:", url);
-    }
+async function handleGetJotFormSurvey(request, response) {
+    const apiKey = process.env.JOTFORM_API;
+    const formID = request.query.surveyid;
+    const url = `https://api.jotform.com/form/${formID}/submissions?apiKey=${apiKey}`;
 
-    if (typeof _apiKey === "undefined") {
-        deferred.reject(new Error("API Key is undefined"));
-    }
-
-    else {
-
-        var options = {
-            url: url,
-            method: verb,
-            json: true
-        }
-        if (verb === 'post') {
-            options.body = typeof postData !== "undefined" ? require('querystring').stringify(postData) : ""
-        }
-        request(options, function (err, response, body) {
-            if (!err && response.statusCode == 200 && body.responseCode == 200) {
-                deferred.resolve(body.content);
-            }
-            if (response.statusCode != 200) {
-                deferred.reject(new Error(body.message));
-            }
-            if (err) {
-                deferred.reject(new Error("Error while request, reason unknown"));
-            }
+    try {
+        const result = await axios.get(url);
+        const surveyResponseArr = result.data.content.map(userReponseObj => Object.entries(userReponseObj.answers));
+        const surveyTrueCountArr = surveyResponseArr.map(answerArr => {
+            return answerArr.reduce((cntTrue, curVal) => {
+                return cntTrue + (curVal[1].answer === 'TRUE' ? 1 : 0);
+            }, 0);
         });
+
+        const surveyResults = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+        for (let i = 0; i < surveyTrueCountArr.length; i++) {
+            surveyResults[surveyTrueCountArr[i] - 1]++;
+        }
+
+        const surveyData = {
+            surveyID: result.data.content[0].form_id, // 213494408669063 url can be built in front end
+            createdOn: result.data.content[0].created_at.split(' ')[0], //date survey was created
+            submissionCount: result.data.resultSet.count, // count of total survey submissions
+            results: surveyResults, //array of total true counts
+        }
+
+        response.status(200).send(surveyData);
+
+    } catch (error) {
+        response.status(400).send(error);
     }
 }
 
-exports.getFormSubmissions = function (formID) {
-    var deferred = Q.defer();
-    if (formID === undefined) {
-        deferred.reject(new Error("Form ID is undefined"));
-    }
-    var endPoint = "/form"
-        , requestUrl = _url + (_version === "latest" ? "" : "/v" + _version) + endPoint + "/" + formID + "/submissions" + "?apiKey=" + _apiKey
-        , requestVerb = "get";
-    sendRequest(deferred, requestUrl, requestVerb);
-    return deferred.promise;
-}
+module.exports = handleGetJotFormSurvey;
