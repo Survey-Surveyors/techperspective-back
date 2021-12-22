@@ -9,6 +9,7 @@ const handleGetSurveyResults = require('./modules/getSurveyResults');
 const handlePostSurveyResults = require('./modules/postSurveyResults');
 const handleDeleteSurveyResults = require('./modules/deleteSurveyResults');
 const handleGetUser = require('./modules/getUser');
+const handleGetJotFormSurvey = require('./modules/jotform');
 
 const app = express();
 app.use(cors());
@@ -30,6 +31,7 @@ app.get("/survey", handleGetSurveyResults);
 app.post("/survey", handlePostSurveyResults);
 app.delete("/survey/:id", handleDeleteSurveyResults);
 app.get("/user", handleGetUser);
+app.get("/jotform", handleGetJotFormSurvey);
 
 
 
