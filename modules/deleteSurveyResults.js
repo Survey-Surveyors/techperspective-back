@@ -26,4 +26,4 @@ async function handleDeleteSurveyResults(req, res) {
 //     });
 //   }
 
-module.export = handleDeleteSurveyResults;
+module.exports = handleDeleteSurveyResults;

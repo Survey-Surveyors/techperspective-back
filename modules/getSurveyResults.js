@@ -22,4 +22,5 @@ async function handleGetSurveyResults(req, res) {
     }
 }
 
-module.export = handleGetSurveyResults;
+
+module.exports = handleGetSurveyResults;

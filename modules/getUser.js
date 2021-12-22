@@ -12,4 +12,4 @@ function handleGetUser(req, res) {
     });
 }
 
-module.export = handleGetUser;
+module.exports = handleGetUser;

@@ -20,4 +20,4 @@ async function handlePostSurveyResults(req, res) {
 //   });
 // }
 
-module.export = handlePostSurveyResults;
+module.exports = handlePostSurveyResults;
