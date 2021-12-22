@@ -3,8 +3,6 @@
 const axios = require('axios');
 
 async function handleGetJotFormSurvey(request, response) {
-    // const apiKey = '0f010291ac4a46a883a9f62c2bca969f';
-    // const formID = 213494408669063;
     const apiKey = process.env.JOTFORM_API;
     const formID = request.query.surveyid;
     const url = `https://api.jotform.com/form/${formID}/submissions?apiKey=${apiKey}`;
@@ -26,9 +24,9 @@ async function handleGetJotFormSurvey(request, response) {
 
         const surveyData = {
             surveyID: result.data.content[0].form_id, // 213494408669063 url can be built in front end
-            createdOn: result.data.content[0].created_at, //date survey was created
-            submissionCount: result.data.resultSet.count, // responseTrue
-            results: surveyResults,
+            createdOn: result.data.content[0].created_at.split(' ')[0], //date survey was created
+            submissionCount: result.data.resultSet.count, // count of total survey submissions
+            results: surveyResults, //array of total true counts
         }
 
         response.status(200).send(surveyData);
