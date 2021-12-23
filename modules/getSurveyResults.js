@@ -10,8 +10,15 @@ async function handleGetSurveyResults(req, res) {
     //       res.send("Invalid Token");
     //     } else {
     try {
-        const answersFromSurveys = await Survey.find({});
+        const answersFromSurveys = await Survey.find({ active: false });
         if (answersFromSurveys) {
+            answersFromSurveys.sort((a, b) => {
+                if (a.createdOn < b.createdOn) return 1;
+                if (a.createdOn > b.createdOn) return -1;
+                if (a.createdOn === b.createdOn) return 0;
+            });
+            console.log(answersFromSurveys);
+            // console.log(sorted);
             res.status(200).send(answersFromSurveys);
         } else {
             res.status(404).send("Issue thinking of questions");
