@@ -11,14 +11,17 @@ async function handleGetActiveSurvey(req, res) {
     //     } else {
     try {
         const activeSurvey = await Survey.findOne({ active: true });
-        console.log(activeSurvey.surveyID);
+        // If there is no active survey send 204 and escape.
+        if (activeSurvey === null) {
+            return res.status(204);
+        }
 
+        // Active survey exsists, GET ths survey information from JotForm using the survey ID.
         const apiKey = process.env.JOTFORM_API;
         const url = `https://api.jotform.com/form/${activeSurvey.surveyID}/submissions?apiKey=${apiKey}`;
-        console.log(url);
-        // try {
         const result = await axios.get(url);
-        // console.log(result.data);
+
+        // If the survey has submissions, parse through result object to pull out relevent information
         if (result.data.content.length > 0) {
             const surveyResponseArr = result.data.content.map(userReponseObj => Object.entries(userReponseObj.answers));
             const surveyTrueCountArr = surveyResponseArr.map(answerArr => {
@@ -43,6 +46,7 @@ async function handleGetActiveSurvey(req, res) {
 
             res.status(200).send(surveyData);
 
+        // If the survey has no submissions yet, send back empty placeholder survey object
         } else {
             const surveyData = {
                 _id: activeSurvey._id,
