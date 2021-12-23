@@ -6,10 +6,11 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const surveySchema = new Schema({
-  SurveyID: String,
-  CreatedOn: String,
-  SubmissionCount: Number,
-  Results: [Number],
+  surveyID: String,
+  createdOn: String,
+  submissionCount: Number,
+  results: [Number],
+  active: Boolean,
 });
 
 const Survey = mongoose.model("Survey", surveySchema);
