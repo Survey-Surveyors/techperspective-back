@@ -4,6 +4,10 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const app = express();
+
+app.use(cors());
+app.use(express.json());
 
 const handleGetSurveyResults = require('./modules/getSurveyResults');
 const handlePostSurveyResults = require('./modules/postSurveyResults');
@@ -11,10 +15,9 @@ const handleDeleteSurveyResults = require('./modules/deleteSurveyResults');
 const handleGetUser = require('./modules/getUser');
 const handleGetJotFormSurvey = require('./modules/getJotForm');
 const handleCloneJotFormSurvey = require('./modules/cloneJotForm');
+const handleGetActiveSurvey = require('./modules/getActiveSurvey');
 
-const app = express();
-app.use(cors());
-app.use(express.json());
+
 
 const PORT = process.env.PORT || 3001;
 
@@ -34,6 +37,7 @@ app.delete("/survey/:id", handleDeleteSurveyResults);
 app.get("/user", handleGetUser);
 app.get("/jotform", handleGetJotFormSurvey);
 app.post("/jotform", handleCloneJotFormSurvey);
+app.get('/active', handleGetActiveSurvey);
 
 
 

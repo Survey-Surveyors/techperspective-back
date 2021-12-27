@@ -1,6 +1,7 @@
 'use strict'
 
 const axios = require('axios');
+const Survey = require('./SurveyModel');
 
 async function handleCloneJotFormSurvey(request, response) {
     try {
@@ -13,10 +14,12 @@ async function handleCloneJotFormSurvey(request, response) {
             surveyID: result.data.content.id,
             createdOn: String(new Date()).split(' ').splice(1, 3).join('-'),
             submissionCount: 0,
-            results: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            results: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            active: true
         }
 
-        response.status(200).send(newSurveyData);
+        const addedSurvey = await Survey.create(newSurveyData);
+        response.status(200).send(addedSurvey);
 
     } catch (error) {
         response.status(400).send(error);
