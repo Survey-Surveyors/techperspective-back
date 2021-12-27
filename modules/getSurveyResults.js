@@ -1,6 +1,6 @@
 "use strict";
 
-// const verifyUser = require('../auth');
+const verifyUser = require('../auth');
 const Survey = require("./SurveyModel");
 
 async function handleGetSurveyResults(req, res) {

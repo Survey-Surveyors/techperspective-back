@@ -2,6 +2,7 @@
 
 const Survey = require('./SurveyModel');
 const axios = require('axios');
+const verifyUser = require('../auth');
 
 async function handleGetActiveSurvey(req, res) {
     verifyUser(req, async (err, user) => {
