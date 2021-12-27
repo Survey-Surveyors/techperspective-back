@@ -2,12 +2,12 @@
 
 const verifyUser = require('../auth');
 
-function handleGetUser(req, res) {
+function handleGetUser(req, res, callbackFn) {
     verifyUser(req, (err, user) => {
         if (err) {
             res.send("Invalid Token");
         } else {
-            res.send(user);
+            callbackFn(req, res);
         }
     });
 }

@@ -18,7 +18,7 @@ function verifyUser(req, errFirstOrUserCallbackFunction) {
         console.log(token);
         jwt.verify(token, getKey, {}, errFirstOrUserCallbackFunction);
     } catch (error) {
-        errFirstOrUserCallbackFunction('Not Authorized');
+        errFirstOrUserCallbackFunction('Authorized Personnel Only, bye felicia!');
     }
 }
 
