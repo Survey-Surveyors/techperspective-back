@@ -17,8 +17,6 @@ const handleGetJotFormSurvey = require('./modules/getJotForm');
 const handleCloneJotFormSurvey = require('./modules/cloneJotForm');
 const handleGetActiveSurvey = require('./modules/getActiveSurvey');
 
-
-
 const PORT = process.env.PORT || 3001;
 
 mongoose.connect(process.env.MONGO_DB);
@@ -38,7 +36,5 @@ app.get("/user", handleGetUser);
 app.get("/jotform", handleGetJotFormSurvey);
 app.post("/jotform", handleCloneJotFormSurvey);
 app.get('/active', handleGetActiveSurvey);
-
-
 
 app.listen(PORT, () => console.log("server is listening to port ", PORT));

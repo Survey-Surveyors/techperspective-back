@@ -4,11 +4,11 @@ const Survey = require('./SurveyModel');
 const axios = require('axios');
 
 async function handleGetActiveSurvey(req, res) {
-    //   verifyUser(req, async (err, user) => {
-    //     if (err) {
-    //       console.error(err);
-    //       res.send("Invalid Token");
-    //     } else {
+    verifyUser(req, async (err, user) => {
+        if (err) {
+            console.error(err);
+            res.send("Invalid Token");
+        } else {
     try {
         const activeSurvey = await Survey.findOne({ active: true });
         // If there is no active survey send 204 and escape.
@@ -63,6 +63,8 @@ async function handleGetActiveSurvey(req, res) {
         console.error(e);
         res.status(500).send("Server Error");
     }
+}
+    })
 }
 
 module.exports = handleGetActiveSurvey;
