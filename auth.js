@@ -7,6 +7,7 @@ const client = jwksClient({
 
 function getKey(header, callback) {
     client.getSigningKey(header.kid, function (err, key) {
+        console.error(err);
         const signingKey = key.publicKey || key.rsaPublicKey;
         callback(null, signingKey);
     });
@@ -22,4 +23,4 @@ function verifyUser(req, errFirstOrUserCallbackFunction) {
     }
 }
 
-module.export = verifyUser;
+module.exports = verifyUser;

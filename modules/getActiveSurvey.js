@@ -21,7 +21,6 @@ async function handleGetActiveSurvey(req, res) {
         const apiKey = process.env.JOTFORM_API;
         const url = `https://api.jotform.com/form/${activeSurvey.surveyID}/submissions?apiKey=${apiKey}`;
         const result = await axios.get(url);
-        console.log(result.data);
 
         // If the survey has submissions, parse through result object to pull out relevent information
         if (result.data.content.length > 0) {
