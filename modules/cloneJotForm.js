@@ -5,6 +5,7 @@ const Survey = require('./SurveyModel');
 
 async function handleCloneJotFormSurvey(request, response) {
     try {
+        console.log('entered handledCloneJotFormSurvey');
         const templateFormID = 213535497610053; //ryan's form
         const url = `https://api.jotform.com/form/${templateFormID}/clone?apiKey=${process.env.JOTFORM_API}`;
 
@@ -20,6 +21,7 @@ async function handleCloneJotFormSurvey(request, response) {
 
         const addedSurvey = await Survey.create(newSurveyData);
         response.status(200).send(addedSurvey);
+        console.log('sent new survey data to front-end: ', newSurveyData);
 
     } catch (error) {
         response.status(400).send(error);

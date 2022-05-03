@@ -4,6 +4,7 @@ const verifyUser = require('../auth');
 const Survey = require("./SurveyModel");
 
 async function handleGetSurveyResults(req, res) {
+    console.log('handleGetSurveyResults called');
     verifyUser(req, async (err, user) => {
     if (err) {
         console.error(err);
@@ -17,6 +18,7 @@ async function handleGetSurveyResults(req, res) {
             if (a.createdOn > b.createdOn) return -1;
             if (a.createdOn === b.createdOn) return 0;
             });
+            console.log('Returning answersFromSurvey: ', answersFromSurveys);
             res.status(200).send(answersFromSurveys);
         } else {
             res.status(404).send("Issue thinking of questions");

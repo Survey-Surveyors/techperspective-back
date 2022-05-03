@@ -5,12 +5,8 @@ const axios = require('axios');
 const verifyUser = require('../auth');
 
 async function handleGetActiveSurvey(req, res) {
-    // verifyUser(req, async (err, user) => {
-    //     if (err) {
-    //         console.error(err);
-    //         res.send("Invalid Token");
-    //     } else {
     try {
+        console.log('entered handleGetActiveSurvey.');
         const activeSurvey = await Survey.findOne({ active: true });
         // If there is no active survey send 204 and escape.
         if (activeSurvey === null) {
@@ -21,6 +17,7 @@ async function handleGetActiveSurvey(req, res) {
         const apiKey = process.env.JOTFORM_API;
         const url = `https://api.jotform.com/form/${activeSurvey.surveyID}/submissions?apiKey=${apiKey}`;
         const result = await axios.get(url);
+        console.log('got the following from JotForm.com: ', result.data.content);
 
         // If the survey has submissions, parse through result object to pull out relevent information
         if (result.data.content.length > 0) {
@@ -46,6 +43,7 @@ async function handleGetActiveSurvey(req, res) {
             }
 
             res.status(200).send(surveyData);
+            console.log('sent surveyData to front-end: ', surveyData);
 
         // If the survey has no submissions yet, send back empty placeholder survey object
         } else {
@@ -57,6 +55,7 @@ async function handleGetActiveSurvey(req, res) {
                 results: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
             }
             res.status(200).send(surveyData);
+            console.log('no submissions yet, so sent an empty survey to front end: ', surveyData);
         }
 
     } catch (e) {
@@ -64,7 +63,6 @@ async function handleGetActiveSurvey(req, res) {
         res.status(500).send("Server Error");
     }
 }
-//     })
-// }
+
 
 module.exports = handleGetActiveSurvey;
