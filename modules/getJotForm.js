@@ -3,12 +3,15 @@
 const axios = require('axios');
 
 async function handleGetJotFormSurvey(request, response) {
+    console.log('entered handdleGetJotFormSurvey');
     const apiKey = process.env.JOTFORM_API;
     const formID = request.query.surveyid;
     const url = `https://api.jotform.com/form/${formID}/submissions?apiKey=${apiKey}`;
 
     try {
         const result = await axios.get(url);
+        console.log('axios call returned: ', result.data.content);
+        
         if (result.data.content.length > 0) {
             const surveyResponseArr = result.data.content.map(userReponseObj => Object.entries(userReponseObj.answers));
             const surveyTrueCountArr = surveyResponseArr.map(answerArr => {
@@ -16,6 +19,8 @@ async function handleGetJotFormSurvey(request, response) {
                     return cntTrue + (curVal[1].answer === 'TRUE' ? 1 : 0);
                 }, 0);
             });
+
+            console.log('surveyresponseArr and surveyTrueCountArr: ',surveyResponseArr, surveyTrueCountArr);
 
             const surveyResults = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
@@ -30,8 +35,8 @@ async function handleGetJotFormSurvey(request, response) {
                 results: surveyResults, //array of total true counts
             }
 
+            console.log('sent response to front-end: ', surveydata);
             response.status(200).send(surveyData);
-
         } else {
             const surveyData = {
                 surveyID: formID,
