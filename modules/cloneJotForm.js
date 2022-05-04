@@ -4,6 +4,7 @@ const axios = require('axios');
 const Survey = require('./SurveyModel');
 
 async function handleCloneJotFormSurvey(request, response) {
+    console.log('Hit BE', user);
     try {
         console.log('entered handledCloneJotFormSurvey');
         const templateFormID = 213535497610053; //ryan's form
@@ -11,12 +12,14 @@ async function handleCloneJotFormSurvey(request, response) {
 
         const result = await axios.post(url);
 
+        console.log('user: ', user);
         const newSurveyData = {
             surveyID: result.data.content.id,
             createdOn: String(new Date()).split(' ').splice(1, 3).join('-'),
             submissionCount: 0,
             results: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-            active: true
+            active: true,
+            // ownerID: user.user_id
         }
 
         const addedSurvey = await Survey.create(newSurveyData);
