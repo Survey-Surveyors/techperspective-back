@@ -6,6 +6,7 @@ const verifyUser = require('../auth');
 
 async function handleGetActiveSurvey(req, res) {
   verifyUser(req, async (err, user) => {
+    console.log('user test: ', user);
     if (err) {
       console.error(err);
       res.send('Invalid Token');
@@ -13,7 +14,12 @@ async function handleGetActiveSurvey(req, res) {
 
       try {
         console.log('entered handleGetActiveSurvey.');
-        const activeSurvey = await Survey.findOne({ active: true });
+        // const activeSurvey = await Survey.findOne({ active: true });
+        const activeSurvey = await Survey.findOne({ ownerID: user.email }).where({ active: true });
+        // {
+        //   active: true,
+        //   ownerID: user.email
+        // });
         console.log('Url Test: ', activeSurvey);
         // If there is no active survey send 204 and escape.
         if (activeSurvey === null) {

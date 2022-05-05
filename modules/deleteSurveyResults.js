@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
 const verifyUser = require('../auth');
-const Survey = require("./SurveyModel");
+const Survey = require('./SurveyModel');
 
 async function handleDeleteSurveyResults(req, res) {
   console.log('enter handleDeleteSurveyResults');
