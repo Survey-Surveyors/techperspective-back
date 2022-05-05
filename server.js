@@ -26,15 +26,15 @@ db.once("open", function () {
   console.log("Mongoose is connected");
 });
 
-app.get("/test", (req, res) => {
+app.get("/test", (request, response) => {
   response.send("test request received");
 });
-app.get("/survey", handleGetSurveyResults);
-app.post("/survey", handlePostSurveyResults);
-app.delete("/survey/:id", handleDeleteSurveyResults);
-app.get("/user", handleGetUser);
-app.get("/jotform", handleGetJotFormSurvey);
-app.post("/jotform", handleCloneJotFormSurvey);
+app.get('/survey', handleGetSurveyResults);
+app.post('/survey', handlePostSurveyResults);
+app.delete('/survey/:id', handleDeleteSurveyResults);
+app.get('/user', handleGetUser);
+app.get('/jotform', handleGetJotFormSurvey);
+app.post('/jotform', handleCloneJotFormSurvey);
 app.get('/active', handleGetActiveSurvey);
 
 app.listen(PORT, () => console.log("server is listening to port ", PORT));

@@ -7,6 +7,7 @@ const Survey = require('./modules/SurveyModel.js');
 
 async function seed() {
     mongoose.connect(process.env.MONGO_DB);
+    console.log('seed.js: seeding db with test data.');
 
     await Survey.create ({
         surveyID: '000005',
@@ -45,6 +46,7 @@ async function seed() {
     })
 
     mongoose.disconnect();
+    console.log('seed.js: completed seeding data.');
 }
 
 seed();
