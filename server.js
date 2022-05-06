@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
-require("dotenv").config();
-const express = require("express");
-const cors = require("cors");
-const mongoose = require("mongoose");
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const mongoose = require('mongoose');
 const app = express();
 
 app.use(cors());
@@ -16,18 +16,19 @@ const handleGetUser = require('./modules/getUser');
 const handleGetJotFormSurvey = require('./modules/getJotForm');
 const handleCloneJotFormSurvey = require('./modules/cloneJotForm');
 const handleGetActiveSurvey = require('./modules/getActiveSurvey');
+const handleGetActivePublicSurvey = require('./modules/getActivePublicSurvey');
 
 const PORT = process.env.PORT || 3001;
 
 mongoose.connect(process.env.MONGO_DB);
 const db = mongoose.connection;
-db.on("error", console.error.bind(console, "connection error:"));
-db.once("open", function () {
-  console.log("Mongoose is connected");
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function () {
+  console.log('Mongoose is connected');
 });
 
-app.get("/test", (request, response) => {
-  response.send("test request received");
+app.get('/test', (request, response) => {
+  response.send('test request received');
 });
 app.get('/survey', handleGetSurveyResults);
 app.post('/survey', handlePostSurveyResults);
@@ -36,5 +37,6 @@ app.get('/user', handleGetUser);
 app.get('/jotform', handleGetJotFormSurvey);
 app.post('/jotform', handleCloneJotFormSurvey);
 app.get('/active', handleGetActiveSurvey);
+app.get('/public-active/:id', handleGetActivePublicSurvey);
 
-app.listen(PORT, () => console.log("server is listening to port ", PORT));
+app.listen(PORT, () => console.log('server is listening to port ', PORT));
