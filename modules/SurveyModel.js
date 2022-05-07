@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-require("dotenv").config();
-const mongoose = require("mongoose");
+require('dotenv').config();
+const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 
@@ -14,7 +14,6 @@ const surveySchema = new Schema({
   ownerID: String
 });
 
-const Survey = mongoose.model("Survey", surveySchema);
+const Survey = mongoose.model('Survey', surveySchema);
 
 module.exports = Survey;
-
